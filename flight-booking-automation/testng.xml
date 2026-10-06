@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Flight Booking Suite">
+ 
+    <test name="Web UI Tests">
+        <classes>
+            <class name="com.flightbooking.tests.FlightSearchTest"/>
+            <class name="com.flightbooking.tests.BookFlightTest"/>
+        </classes>
+    </test>
+ 
+    <test name="API Tests">
+        <classes>
+            <class name="com.flightbooking.tests.BookingApiTest"/>
+        </classes>
+    </test> 
+    <test name="BDD Tests">
+        <classes>
+            <class name="com.flightbooking.runners.TestRunner"/>
+        </classes>
+    </test>
+
+</suite>
