@@ -53,10 +53,4 @@ To run in headless mode:
 ```bash
 mvn test -Dheadless=true
 ```
-
-## Reports
-
-Test reports are generated after the test execution.
-
-* TestNG report: `target/surefire-reports`
-* Cucumber report: `target/cucumber-reports`
+ 
